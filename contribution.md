@@ -1,7 +1,6 @@
 # Contribution guide
 
-* only camelcase in directories names
-* structure:
+* task structure:
 
   ```
   .
@@ -14,4 +13,9 @@
       └── 📄 readme.md
   ```
 
-// TODO: generate task structure... maybe via CLI? 
+* track structure:
+  ```
+  .
+  ├── 📁 01-taskName
+  ├── 📁 02-taskName
+  ```
