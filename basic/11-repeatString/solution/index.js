@@ -12,7 +12,7 @@ export const repeatString = (str = '') => {
     const lastPart = item.toLowerCase().repeat(index);
 
     return `${firstPart}${lastPart}`;
-  })
+  });
 
   return result.join(separator);
 };
