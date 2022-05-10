@@ -1,4 +1,4 @@
-import { repeatString } from './solution';
+import { repeatString } from './solution/index.js';
 
 describe('js-basic/repeatString', () => {
   it('should return new string according to the condition ', () => {

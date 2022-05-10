@@ -4,7 +4,8 @@ export const revertCase = (string = '') => {
   for (const char of string) {
     if (char === char.toUpperCase()) {
       result += char.toLowerCase();
-    } else {
+    }
+    else {
       result += char.toUpperCase();
     }
   }

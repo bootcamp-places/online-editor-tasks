@@ -1,4 +1,4 @@
-import { largestPairSum } from './solution';
+import { largestPairSum } from './solution/index.js';
 
 describe('js-basic/largestPairSum', () => {
   it('should return sum of highest and lowest values', () => {

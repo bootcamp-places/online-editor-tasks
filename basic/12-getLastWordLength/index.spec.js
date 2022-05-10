@@ -1,4 +1,4 @@
-import { getLastWordLength } from './solution';
+import { getLastWordLength } from './solution/index.js';
 
 describe('js-basic/getLastWordLength', () => {
   it('should return length of last word in the string', () => {

@@ -1,4 +1,4 @@
-import { omit } from './solution';
+import { omit } from './solution/index.js';
 
 describe('js-basic/omit', () => {
   it('should return a new object without passed field', () => {

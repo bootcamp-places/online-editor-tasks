@@ -1,4 +1,4 @@
-import { trimSymbols } from './solution';
+import { trimSymbols } from './solution/index.js';
 
 describe('js-basic/trimSymbols', () => {
   it('should remove an identical consecutive characters that exceed the specified size', () => {

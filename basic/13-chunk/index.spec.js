@@ -1,4 +1,4 @@
-import { chunk } from './solution';
+import { chunk } from './solution/index.js';
 
 describe('js-basic/chunk', () => {
   it('should satisfy the following conditions', () => {

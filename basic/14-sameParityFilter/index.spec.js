@@ -1,4 +1,4 @@
-import { sameParityFilter } from './solution';
+import { sameParityFilter } from './solution/index.js';
 
 describe('js-basic/sameParityFilter', () => {
   it('should satisfy the following conditions', () => {

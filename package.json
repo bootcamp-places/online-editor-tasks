@@ -1,0 +1,29 @@
+{
+  "name": "online-editor-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:editorconfig": "editorconfig-checker",
+    "test:karma": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosandk/online-editor-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dosandk/online-editor-tasks/issues"
+  },
+  "homepage": "https://github.com/dosandk/online-editor-tasks#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "jasmine": "^4.1.0",
+    "jasmine-core": "^4.1.1",
+    "karma": "^6.3.19",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^5.0.0",
+    "karma-mocha-reporter": "^2.2.5"
+  }
+}

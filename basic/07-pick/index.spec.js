@@ -1,4 +1,4 @@
-import { pick } from './solution';
+import { pick } from './solution/index.js';
 
 describe('js-basic/pick', () => {
   it('should return new object with one passed field', () => {

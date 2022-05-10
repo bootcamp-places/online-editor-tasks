@@ -1,4 +1,4 @@
-import { revertCase } from './index.js';
+import { revertCase } from './solution/index.js';
 
 describe('revertCase', () => {
   it('should correctly handle whitespace characters', () => {
