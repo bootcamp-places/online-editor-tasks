@@ -1,6 +1,6 @@
-import { repeatString } from './solution/index.js';
+import { repeatString } from './solution';
 
-describe('js-basic/repeatString', () => {
+describe('repeatString', () => {
   it('should return new string according to the condition ', () => {
     expect(repeatString('zpgl')).toBe('Z-Pp-Ggg-Llll');
     expect(repeatString('Nyffs')).toBe('N-Yy-Fff-Ffff-Sssss');

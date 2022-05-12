@@ -1,6 +1,6 @@
-import { chunk } from './solution/index.js';
+import { chunk } from './solution';
 
-describe('js-basic/chunk', () => {
+describe('chunk', () => {
   it('should satisfy the following conditions', () => {
     const result1 = chunk(['a', 'b', 'c', 'd'], 2);
     expect(result1).toEqual([['a', 'b'], ['c', 'd']]);

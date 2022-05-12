@@ -1,6 +1,6 @@
-import { largestPairSum } from './solution/index.js';
+import { largestPairSum } from './solution';
 
-describe('js-basic/largestPairSum', () => {
+describe('largestPairSum', () => {
   it('should return sum of highest and lowest values', () => {
     expect(largestPairSum([1, 2, 3, 5, 12])).toBe(17);
     expect(largestPairSum([12, 32, 14, 22])).toBe(54);

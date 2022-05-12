@@ -1,6 +1,6 @@
-import { pick } from './solution/index.js';
+import { pick } from './solution';
 
-describe('js-basic/pick', () => {
+describe('pick', () => {
   it('should return new object with one passed field', () => {
     const obj = {foo: 'foo', bar: 'bar'};
 

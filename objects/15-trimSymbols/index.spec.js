@@ -1,6 +1,6 @@
-import { trimSymbols } from './solution/index.js';
+import { trimSymbols } from './solution';
 
-describe('js-basic/trimSymbols', () => {
+describe('trimSymbols', () => {
   it('should remove an identical consecutive characters that exceed the specified size', () => {
     expect(trimSymbols('xxx', 1)).toEqual('x');
     expect(trimSymbols('xxxaaaaab', 1)).toEqual('xab');

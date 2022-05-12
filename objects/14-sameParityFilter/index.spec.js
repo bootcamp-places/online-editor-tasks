@@ -1,6 +1,6 @@
-import { sameParityFilter } from './solution/index.js';
+import { sameParityFilter } from './solution';
 
-describe('js-basic/sameParityFilter', () => {
+describe('sameParityFilter', () => {
   it('should satisfy the following conditions', () => {
     const result = sameParityFilter([5, 0, 1, -3, 10]);
     expect(result).toEqual([5, 1, -3]);

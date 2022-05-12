@@ -1,6 +1,6 @@
-import { omit } from './solution/index.js';
+import { omit } from './solution';
 
-describe('js-basic/omit', () => {
+describe('omit', () => {
   it('should return a new object without passed field', () => {
     const obj = {foo: 'foo'};
 

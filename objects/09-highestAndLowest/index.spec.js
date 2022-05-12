@@ -1,6 +1,6 @@
-import { highestAndLowest } from './solution/index.js';
+import { highestAndLowest } from './solution';
 
-describe('js-basic/highestAndLowest', () => {
+describe('highestAndLowest', () => {
   it('should return new string with highest and lowest value', () => {
     const numbers = '1 2 3 4 5';
 
