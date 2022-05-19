@@ -1,4 +1,4 @@
-# Contribution guide
+# online-editor-tasks
 
 ## Install
 
@@ -13,40 +13,6 @@
   "npm": ">=8.0.0"
 }
 ```
-
-## Запуск тестів
-
-Для тестування завдань використовується [`jasmine`](https://github.com/jasmine/jasmine).
-Тести до завдань запустити можна двома способами:
-
-* відкривши файл `index.spec.html` відповідного завдання в браузері
-* запустивши одну з команд тест-ранера [`karma`](https://karma-runner.github.io/latest/index.html)
-
-### Запуск тестів за допомогою Karma
-
-Запуск тестів для всіх треків:
-
-```npm
-npm run test:karma
-```
-
-Запуск тестів для певного завдання:
-
-```npm
-npm run test:karma --grep <track-name>/<test-name>
-```
-
-Наприклад запустимо тести для задачі `sum` в треку `basic`:
-`npm run test:karma -- --grep basic/sum`
-
-Запуск тестів для всього треку:
-
-```npm
-npm run test:karma -- --grep <track-name>
-```
-
-Наприклад запустимо для всього треку `basic`:
-`npm run test:karma -- --grep basic`
 
 ## Структура задачі:
 
@@ -115,3 +81,37 @@ npm run test:karma -- --grep <track-name>
   
 Самі завдання будуть видаватись користувачу для вирішення відповідно до номера в
 назві завдання.
+
+## Запуск тестів
+
+Для тестування завдань використовується [`jasmine`](https://github.com/jasmine/jasmine).
+Тести до завдань можна запустити двома способами:
+
+* відкривши в браузері файл `index.spec.html` відповідного завдання 
+* запустивши одну з команд тест-ранера [`karma`](https://karma-runner.github.io/latest/index.html)
+
+### Запуск тестів за допомогою Karma
+
+Запуск тестів для всіх треків:
+
+```
+npm run test:karma
+```
+
+Запуск тестів для певного завдання:
+
+```
+npm run test:karma -- --grep <track-name>/<test-name>
+```
+
+Наприклад запустимо тести для задачі `sum` в треку `basic`:
+`npm run test:karma -- --grep basic/sum`
+
+Запуск тестів для всього треку:
+
+```
+npm run test:karma -- --grep <track-name>
+```
+
+Наприклад запустимо для всього треку `basic`:
+`npm run test:karma -- --grep basic`
