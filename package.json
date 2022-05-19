@@ -2,11 +2,15 @@
   "name": "online-editor-tasks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "test": "npm run test:editorconfig && npm run test:karma && npm run eslint",
     "test:editorconfig": "editorconfig-checker",
     "test:karma": "karma start karma.conf.js",
-    "eslint": "eslint ./**/*.js --config .eslintrc.js"
+    "eslint": "eslint tracks/**/*.js --config .eslintrc.js"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "repository": {
     "type": "git",

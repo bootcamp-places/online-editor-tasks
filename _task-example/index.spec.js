@@ -1,6 +1,6 @@
-import { example } from './solution/index.js';
+import { taskName } from './solution/index.js';
 
-describe('example', () => {
+describe('<track-name>/taskName', () => {
   it('should ...', () => {
     //
   });

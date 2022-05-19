@@ -1,2 +1,1 @@
-karma.conf.js
-.eslintrc.js
+tracks/**/index.js
