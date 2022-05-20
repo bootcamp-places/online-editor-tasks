@@ -1,4 +1,4 @@
-import { highestAndLowest } from './solution';
+import { highestAndLowest } from './solution/index.js';
 
 describe('objects/highestAndLowest', () => {
   it('should return new string with highest and lowest value', () => {
