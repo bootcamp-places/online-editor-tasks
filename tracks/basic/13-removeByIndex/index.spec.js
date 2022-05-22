@@ -18,4 +18,10 @@ describe('basic/removeByIndex', () => {
 
     expect(removeByIndex(arr, 1)).toEqual(['a', 'c']);
   });
+
+  it('should return new array', () => {
+    const arr = ['a', 'b', 'c'];
+
+    expect(removeByIndex(arr, 1)).not.toBe(arr);
+  });
 });
