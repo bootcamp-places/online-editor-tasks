@@ -1,4 +1,4 @@
-# transformArrToObject
+# sortByWeight
 
 Розв'язання цієї задачі може виглядати ось так:
 
