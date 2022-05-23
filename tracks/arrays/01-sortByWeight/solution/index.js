@@ -5,18 +5,5 @@ export const sortByWeight = (arr = []) => {
       .split('')
       .reduce((prev, current) => parseInt(prev) + parseInt(current), 0);
 
-  return arr.sort((a, b) => {
-    const sum1 = sumNumbers(a)
-    const sum2 = sumNumbers(b)
-
-    if (sum1 < sum2) {
-      return -1;
-    }
-
-    if (sum1 > sum2) {
-      return 1;
-    }
-
-    return 0;
-  });
+  return arr.sort((a, b) => sumNumbers(a) - sumNumbers(b));
 };
