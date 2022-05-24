@@ -5,6 +5,5 @@
  * @returns {object} - the new object without provided keys
  */
 export function removeProperties(obj, keys) {
-  return Object.keys(obj).reduce((result, key) => 
-    !keys.includes(key) ? { ...result, [key]: obj[key] } : result, {});
+  return Object.keys(obj).reduce((result, key) => !keys.includes(key) ? { ...result, [key]: obj[key] } : result, {});
 }

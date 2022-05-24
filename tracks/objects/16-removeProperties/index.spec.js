@@ -7,7 +7,7 @@ describe('objects/removeProperties', () => {
       firstName: 'John',
       lastName: 'Doe',
       age: 22
-    }
+    };
     expect(removeProperties(user, ['lastName'])).toEqual({ id: 1, firstName: 'John', age: 22 });
     expect(removeProperties(user, ['firstName', 'lastName'])).toEqual({ id: 1, age: 22 });
   });
