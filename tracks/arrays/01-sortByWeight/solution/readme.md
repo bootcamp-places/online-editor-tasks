@@ -3,27 +3,59 @@
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-export const sortByWeight = (arr = []) => {
-  const getWeight = element =>
-  element
+const sortByWeight = (arr = []) => {
+  const getWeight = element => {
+    return element
       .toString()
       .split('')
-      .reduce((prev, current) => parseInt(prev) + parseInt(current), 0);
+      .reduce((accum, current) => {
+        return parseInt(accum, 10) + parseInt(current, 10);
+      }, 0);
+  };
 
   return arr.sort((a, b) => getWeight(a) - getWeight(b));
 };
 ```
 
-Для сортування елементів з масиву існує метод sort, який дозволяє реалізувати власну логіку сортування. У власній імплементації потрібно визначити вагу кожного елементу масиву і порівняти між собою.
+Для сортування елементів масиву в JavaScript існує вбудований метод `sort`, 
+який дозволяє реалізувати сортування, порівнюючи елементи масиву та використовуючи
+власну логіку сортування.
 
-Так як функція приймає массив як із числами так і стрічки з числами, потрібно спочатку привести значення до стрічки (так як числа не мають методу (split))
+Для того що б мати можливість підрахувати вагу кожного елементу, нам потрібно привести 
+числові елементи до стрічки:
 
 ```js
 element
- .toString()
+  .toString()
 ```
-після цього розбити стрічку на елементи методом split і вже після цього просумувати всі елементи(при додаванні потрібно не забути перевести стрічку в число методами [parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt))
+
+Після цього, ми матимемо можливість, за допомогою методу `split` перетворити кожен елемент
+масиву на масив чисел:
 
 ```js
-.reduce((prev, current) => parseInt(prev) + parseInt(current), 0);
+  return element
+    .toString()
+    .split('')
+```
+
+На цьому кроці кожен елемент масиву буде виглядати ось так:
+
+* `['3']`
+* `['1']`
+* `['5', '5']`
+* `['3', '3']`
+* `['2', '0']`
+
+Залишилось тільки підрахувати вагу кожного елементу.
+
+Отримати суму елементів масиву, що буде відповідати вазі елемента, можна за допомогою метода `reduce`.
+Також треба не забути перевести кожен елемент зі стрічки до числа, в цьому допоможе метод [`parseInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt).
+
+```js
+  return element
+  .toString()
+  .split('')
+  .reduce((accum, current) => {
+    return parseInt(accum, 10) + parseInt(current, 10);
+  }, 0);
 ```

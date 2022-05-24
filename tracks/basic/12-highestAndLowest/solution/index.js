@@ -6,5 +6,5 @@
 export const highestAndLowest = (numbers) => {
   const arr = numbers.split(' ');
 
-  return `${Math.max(...arr)} ${Math.min(...arr)}`;
+  return `${Math.min(...arr)} ${Math.max(...arr)}`;
 };
