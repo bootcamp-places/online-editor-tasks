@@ -1,1 +1,1 @@
-export const uniqueValues = (array = []) => [...new Set(array)]
+export const uniqueValues = (array = []) => [...new Set(array)];
