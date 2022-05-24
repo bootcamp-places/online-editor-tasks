@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npm run test:editorconfig && npm run test:karma && npm run eslint",
-    "test:editorconfig": "editorconfig-checker",
+    "test": "npm run test:editorconfig && npm run test:karma && npm run test:eslint",
+    "test:editorconfig": "editorconfig-checker --exclude '.git|.husky|node_modules'",
     "test:karma": "karma start karma.conf.js",
-    "eslint": "eslint tracks/**/*.js --config .eslintrc.js"
+    "test:eslint": "eslint tracks/**/*.js --config .eslintrc.js",
+    "pre-commit": "lint-staged"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -25,11 +26,16 @@
   "devDependencies": {
     "editorconfig-checker": "^4.0.2",
     "eslint": "^8.15.0",
+    "husky": "^8.0.1",
     "jasmine": "^4.1.0",
     "jasmine-core": "^4.1.1",
     "karma": "^6.3.19",
     "karma-chrome-launcher": "^3.1.1",
     "karma-jasmine": "^5.0.0",
-    "karma-mocha-reporter": "^2.2.5"
+    "karma-mocha-reporter": "^2.2.5",
+    "lint-staged": "^12.4.2"
+  },
+  "lint-staged": {
+    "*.js": ["npm run test:eslint", "npm run test:editorconfig"]
   }
 }

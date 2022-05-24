@@ -8,6 +8,5 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{md,markdown,mdown,markdn}]
-indent_size = 2
+[*.{md,json}]
 trim_trailing_whitespace = false
