@@ -38,6 +38,6 @@ sortByWeight([
   <summary>Підказка</summary>
   
 ---
-  Потрібно реалізувати власний метод [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk) в якому будуть порівнюватись елементи масиву. У власній реалізації методі [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk) потрібно визначити вагу кожного елементу і порівняти між собою.
+  Потрібно реалізувати власний метод [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk) в якому будуть порівнюватись елементи масиву. У власній реалізації методу [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk) потрібно визначити вагу кожного елементу і порівняти між собою.
 </details>
 
