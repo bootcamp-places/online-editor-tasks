@@ -8,8 +8,6 @@
 
 **Приклад:**
 
-Припустимо, в нас є об'єкт `user` з ключами: `id`, `name`, `lastName`, `age`.
-
 ```js
 const user = {
   id: 1,
@@ -19,5 +17,4 @@ const user = {
 };
 
 removeProperties(user, ['lastName', 'age']); // { id: 1, firstName: 'John' } - видаляємо 'lastName' i 'age'
-removeProperties(user, ['firstName']); // { id: 1, lastName: 'Doe', age: 22 } - видаляємо 'firstName'
 ```
