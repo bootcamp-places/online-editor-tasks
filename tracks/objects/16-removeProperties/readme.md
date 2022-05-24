@@ -7,17 +7,15 @@
 Функція повинна повернути об'єкт, видалив з нього всі ключі, зазначені в массиві.
 
 **Example:**
+Припустимо, в нас є об'єкт user з ключами: id, name, lastName, age.
 
 ```javascript
-removeProperties({ one: 'one', two: 'two', three: 'three' }, ['one', 'two']); // { three: 'three' } - видаляємо 'one' i 'two'
-removeProperties({ one: 'one', two: 'two', three: 'three' }, ['three']); // { one: 'one', two: 'two' } - видаляємо 'three'
+const user = {
+  id: 1,
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 22
+}
+removeProperties(user, ['lastName', 'age']); // { id: 1, firstName: 'John' } - видаляємо 'lastName' i 'age'
+removeProperties(user, ['firstName']); // { id: 1, lastName: 'Doe', age: 22 } - видаляємо 'firstName'
 ```
-
-<details>
-  <summary>Підказка</summary>
-  
----
-
-Зверніть увагу на оператор [delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)
-
-</details>

@@ -2,16 +2,22 @@ import { removeProperties } from './solution/index.js';
 
 describe('objects/removeProperties', () => {
   it('should remove properties', () => {
-    expect(removeProperties({ one: 'one', two: 'two', three: 'three' }, ['one'])).toEqual({ two: 'two', three: 'three' });
-    expect(removeProperties({ one: 'one', two: 'two', three: 'three' }, ['three', 'one'])).toEqual({ two: 'two' });
+    const user = {
+      id: 1,
+      firstName: 'John',
+      lastName: 'Doe',
+      age: 22
+    }
+    expect(removeProperties(user, ['lastName'])).toEqual({ id: 1, firstName: 'John', age: 22 });
+    expect(removeProperties(user, ['firstName', 'lastName'])).toEqual({ id: 1, age: 22 });
   });
 
-  it('should return empty empty object if it was passed to function like an argument', () => {
+  it('should return empty object if it was passed to function like an argument', () => {
     expect(removeProperties({}, [])).toEqual({});
-    expect(removeProperties({}, ['one'])).toEqual({});
+    expect(removeProperties({}, ['id'])).toEqual({});
   });
 
   it('should return the same object if no keys were passed', () => {
-    expect(removeProperties({ one: 'one', two: 'two' }, [])).toEqual({ one: 'one', two: 'two' });
+    expect(removeProperties({ id: 1 }, [])).toEqual({ id: 1 });
   });
 });

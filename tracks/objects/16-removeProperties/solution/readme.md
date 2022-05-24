@@ -4,9 +4,7 @@
 
 ```js
 export function removeProperties(obj, keys) {
-  for (const key of keys) {
-    delete obj[key]
-  }
-  return obj;
+  return Object.keys(obj).reduce((result, key) => 
+    !keys.includes(key) ? { ...result, [key]: obj[key] } : result, {});
 }
 ```
