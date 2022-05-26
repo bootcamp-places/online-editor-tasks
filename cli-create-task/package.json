@@ -1,0 +1,17 @@
+{
+  "name": "cli-create-task",
+  "version": "1.0.0",
+  "description": "Create task structure",
+  "main": "bin/index.js",
+  "bin": {
+    "create-task": "bin/index.js"
+  },
+  "author": "Volodymyr Shevchuk",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "inquirer-search-list": "^1.2.6",
+    "tree-node-cli": "^1.5.2"
+  }
+}
