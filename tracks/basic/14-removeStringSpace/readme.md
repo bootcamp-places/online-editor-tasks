@@ -15,6 +15,6 @@ removeStringSpace('   h el   lo '); // 'hello'
   
   ---
 
-  Зверніть увагу на метод [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+  Зверніть увагу на метод [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
   
 </details>
