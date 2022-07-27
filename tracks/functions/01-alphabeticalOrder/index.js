@@ -1,3 +1,3 @@
-export const alphabeticalOrder = () => {
+export const alphabeticalOrder = (str) => {
 
 };

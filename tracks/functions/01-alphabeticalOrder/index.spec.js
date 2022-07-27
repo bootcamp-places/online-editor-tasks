@@ -4,6 +4,9 @@ describe('functions/alphabeticalOrder', () => {
   it('should be defined', () => {
     expect(alphabeticalOrder).toBeDefined();
   });
-
-  // [your tests here]
+  
+  it('Should return string in alphabetical order', () => { 
+    expect(alphabeticalOrder('webmaster'))
+    .toEqual('abeemrstw');
+  });
 });

@@ -1,17 +1,13 @@
 # alphabeticalOrder
 
-Напишіть функцію JavaScript, яка повертає переданий рядок із буквами в алфавітному порядку.
+Напишіть функцію JavaScript, яка приймає рядок із буквами, та повертає його в алфавітному порядку.
 
 **Приклад:**
 Приклад рядка: 'webmaster'
 Очікуваний результат: 'abeemrstw'
 
 ```js
-const alphabeticalOrder = (str) => {
-  return ...;
-};
-
-console.log(alphabeticalOrder('webmaster')) // abeemrstw
+alphabeticalOrder('webmaster') // abeemrstw
 ```
 
 <details>
