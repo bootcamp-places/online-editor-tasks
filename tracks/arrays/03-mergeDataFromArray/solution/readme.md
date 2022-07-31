@@ -1,10 +1,10 @@
-# createDateFromArray
+# mergeDataFromArray
 
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-export const handleDataOfArrayOfObjects = (arrayOfObjects, property, divider) => {
-  return arrayOfObjects.map(obj => obj[property])?.join(divider);
+export const mergeDataFromArray = (arrayOfObjects, property, divider) => {
+  return arrayOfObjects.map(obj => obj[property] || '-')?.join(divider);
 };
 ```
 

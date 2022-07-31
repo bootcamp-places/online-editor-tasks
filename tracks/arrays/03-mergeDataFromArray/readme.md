@@ -1,17 +1,18 @@
-# createDateFromArray
+# mergeDataFromArray
 
-Необхідно реалізувати функцію `createDateFromArray`, яка приймає в якості аргументу 
+Необхідно реалізувати функцію `mergeDataFromArray`, яка приймає в якості аргументу 
 масив об'єктів однакової структури, а повертає об'єднане і видозмінене значення вказаного поля о'бєктів масиву.
+Така задача можлива у випадку, коли користувачу потрібно показати раніше обрані значення.
 
 **Приклад:**
 
 ```js
-const dateArray = [
-    {id:1, date: 9, time: null},
-    {id:1, date: 7, time: null},
-    {id:1, date: 2022, time: null}
-];
-createDateFromArray(dateArray, 'date', '/'); // '9/7/2022'
+const array = [
+      {color: "black", id: 9, time: null},
+      {color: null, id: null, time: null},
+      {color: "blue", id: 5, time: null},
+    ];
+mergeDataFromArray(array, 'color', '/'); // 'black/7/blue'
 ```
 
 <details>
