@@ -6,7 +6,7 @@
 export const countCharactersInString = (string) => {
   return string
     .toLowerCase()
-    .replace(/\s/g, '',)
+    .replace(/\s/g, '')
     .split('')
     .reduce((acc, val)=> val in acc ? {...acc, [val]: acc[val] + 1} : { ...acc, [val]: 1}, {});
 };
