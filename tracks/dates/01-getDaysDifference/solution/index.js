@@ -1,10 +1,6 @@
-export const getDaysDifference = (dates = []) => {
-  if (!dates.length) {
-    return 0;
-  }
+export const getDaysDifference = (date) => {
+  const msInDay = 1000 * 60 * 60 * 24;
+  const msDiff = new Date().getTime() - new Date(date).getTime();
 
-  const lastDate = Math.max(...dates);
-  const diffDays = (new Date().getTime() - lastDate) / 1000 / 60 / 60 / 24;
-
-  return parseInt(diffDays);
+  return parseInt(msDiff / msInDay, 10);
 };

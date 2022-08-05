@@ -15,16 +15,9 @@ describe("dates/getDaysDifference", () => {
   });
 
   it("should return number of days difference between last workout and today's date", () => {
-    expect(getDaysDifference([])).toBe(0);
-    expect(
-      getDaysDifference([new Date("2022-01-01"), new Date("1970-01-01")])
-    ).toBe(0);
-    expect(
-      getDaysDifference([new Date("2010-01-01"), new Date("2021-01-01")])
-    ).toBe(364);
-    expect(getDaysDifference([new Date("2021-12-31")])).toBe(0);
-    expect(
-      getDaysDifference([new Date("2021-11-30"), new Date("2021-12-01")])
-    ).toBe(30);
+    expect(getDaysDifference("2022-01-01")).toBe(0);
+    expect(getDaysDifference("2021-01-01")).toBe(364);
+    expect(getDaysDifference("2021-12-31")).toBe(0);
+    expect(getDaysDifference("2021-12-01")).toBe(30);
   });
 });

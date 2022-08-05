@@ -1,1 +1,1 @@
-export const getDaysDifference = () => {};
+export const getDaysDifference = (date) => {};
