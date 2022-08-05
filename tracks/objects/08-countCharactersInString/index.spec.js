@@ -17,5 +17,4 @@ describe('objects/countCharactersInString', () => {
   it('should get as a result of tree a characters and two b characters result should be in lower case', () => {
     expect(countCharactersInString('Aaabb')).toEqual({ a: 3, b: 2, });
   });
-
 });
