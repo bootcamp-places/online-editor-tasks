@@ -3,7 +3,7 @@
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-const getDaysDifference = (date) => {
+const export const getDaysDifference = (date) => {
   const msInDay = 1000 * 60 * 60 * 24;
   const msDiff = new Date().getTime() - new Date(date).getTime();
 
