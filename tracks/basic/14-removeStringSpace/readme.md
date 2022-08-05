@@ -1,5 +1,7 @@
 # removeStringSpace
 
+> Author: [YevheniiKolomiiets](https://github.com/YevheniiKolomiiets)
+
 Необхідно реалізувати функцію `removeStringSpace`, яка приймає в якості аргументу 
 стрічку, в якій потрібно видалити всі пробіли.
 

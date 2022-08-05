@@ -1,5 +1,7 @@
 # countCharactersInString
 
+> Author: [KrabDr](https://github.com/KrabDr)
+
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
