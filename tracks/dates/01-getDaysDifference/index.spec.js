@@ -1,4 +1,3 @@
-import "jasmine";
 import { getDaysDifference } from "./solution/index.js";
 
 describe("dates/getDaysDifference", () => {
