@@ -5,7 +5,7 @@
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-export const isIsogram = (str) => {
+const isIsogram = (str) => {
   const uniqueCharsSize = new Set(str.toLowerCase().split('')).size;
   return str.length === uniqueCharsSize;
 };
