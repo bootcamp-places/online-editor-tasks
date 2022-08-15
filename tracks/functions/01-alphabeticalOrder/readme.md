@@ -16,4 +16,6 @@ alphabeticalOrder('webmaster') // abeemrstw
 ---
 Зверніть увагу на вбудований метод масиву [sort] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk).  
 
+Зверніть увагу на метод порівняння рядків [localeCompare] (https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+
 </details>
