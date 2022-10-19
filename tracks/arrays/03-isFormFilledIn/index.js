@@ -1,3 +1,1 @@
-export const isFormFilledIn = () => {
-
-};
+export const isFormFilledIn = (form, fields) => {};
