@@ -1,9 +1,12 @@
 {
-  "name": "traks-parser",
+  "name": "cli-tracks-parser",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "parse-tracks": "bin/index.js"
+  },
   "scripts": {
     "develop": "nodemon index.js",
     "parse": "node index.js"

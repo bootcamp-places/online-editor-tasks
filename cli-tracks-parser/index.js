@@ -1,18 +1,20 @@
 import path from 'path';
+import { fileURLToPath } from 'url';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
-dotenv.config();
+const __dirname = path.dirname(fileURLToPath(new URL(import.meta.url)));
+
+dotenv.config({ path: path.join(__dirname, '.env')});
 
 import {
   getDirs,
   readFilesFromDir,
   createOrUpdateTask,
   createOrUpdateTrack
-} from './utils/index.js';
+} from './src/utils/index.js';
 
 const parseTracksAndSaveToDB = async () => {
-  const __dirname = path.resolve();
   const tracksPath = path.join(__dirname, '..', 'tracks');
   const tracksDirs = await getDirs(tracksPath);
 
@@ -44,8 +46,10 @@ const parseTracksAndSaveToDB = async () => {
   }
 };
 
-const runParser = () => {
+const run = () => {
   try {
+    console.error('process.env.MONGODB_URI', process.env.MONGODB_URI);
+
     mongoose.connect(process.env.MONGODB_URI, async error => {
       if (error) {
         throw error;
@@ -60,4 +64,4 @@ const runParser = () => {
   }
 };
 
-runParser();
+export default run;
