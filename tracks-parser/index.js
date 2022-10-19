@@ -13,7 +13,7 @@ import {
 
 const parseTracksAndSaveToDB = async () => {
   const __dirname = path.resolve();
-  const tracksPath = path.join(__dirname, '..', 'src', 'repo', 'tracks');
+  const tracksPath = path.join(__dirname, '..', 'tracks');
   const tracksDirs = await getDirs(tracksPath);
 
   for (const trackDir of tracksDirs) {
