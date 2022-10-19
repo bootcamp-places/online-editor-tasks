@@ -1,5 +1,7 @@
 # makeSlug
 
+> Author: [merezhanyi-eleks](https://github.com/merezhanyi-eleks)
+
 Разом з командою ви працюєте над новою [CMS](https://uk.wikipedia.org/wiki/Система_керування_вмістом). Вашим завданням є розробити для системи створення коротких оптимізованих посилань (англ. [Clean URL](https://en.wikipedia.org/wiki/Clean_URL)) модуля "шлейфу" (англ. [slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug)), т.з. модуля "слагифікації". Для цього ви маєте використовувати заголовок статті CMS.
 
 Обмеження:

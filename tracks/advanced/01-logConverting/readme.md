@@ -1,5 +1,7 @@
 # logConverting
 
+> Author: [merezhanyi-eleks](https://github.com/merezhanyi-eleks)
+
 Ця задача є продовженням [basic/logMonitoring](js-track/basic/logMonitoring).
 
 Ви працюєте над сервісом моніторінгу хмари серверів. Вам необхідно написати проміжний обробник логу з сервера, який передає зконвертовану інформацію на сервіс візуалізації, який будує графіки критичних помилок на серверах. Данні з сервера приходять у вигляді строки, а сервіс візуалізації приймає тільки [JSON](https://uk.wikipedia.org/wiki/JSON) формат. Тобто вам необхідно написати [middleware](https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D1%96%D0%B6%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F).
