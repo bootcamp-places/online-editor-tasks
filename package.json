@@ -9,7 +9,8 @@
     "test:eslint": "eslint tracks/**/*.js --config .eslintrc.js",
     "pre-commit": "lint-staged",
     "pre-push": "npm run test:karma",
-    "create-task": "create-task"
+    "create-task": "create-task",
+    "parse-tracks": "parse-tracks"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -36,7 +37,8 @@
     "karma-jasmine": "^5.0.0",
     "karma-mocha-reporter": "^2.2.5",
     "lint-staged": "^12.4.2",
-    "cli-create-task": "file:/./cli-create-task"
+    "cli-create-task": "file:/./cli-create-task",
+    "cli-tracks-parser": "file:/./cli-tracks-parser"
   },
   "lint-staged": {
     "*.js": [
