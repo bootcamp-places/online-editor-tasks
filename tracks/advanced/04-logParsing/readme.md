@@ -2,11 +2,11 @@
 
 > Author: [merezhanyi-eleks](https://github.com/merezhanyi-eleks)
 
-Ця задача є продовженням [basic/logMonitoring](js-track/basic/logMonitoring).
+Ця задача є продовженням [advanced/logMonitoring](js-track/advanced/logMonitoring).
 
 Разом з командою, ви працюєте над сервісом моніторінгу хмари серверів. Данні до вас надаються [асинхронно](https://uk.wikipedia.org/wiki/%D0%90%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%B5_%D0%BF%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%BE%D0%B2%D0%BD%D0%B5_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B4%D0%B0%D0%BD%D0%B8%D1%85), що призводить до того, що записи в межах одного повідомлення можуть бути розташовані в довільному порядку, а також до того, що частина записів може бути неповна. Такий метод передачі даних часто застосовується у мережах з великим трафіком, або з великою кількістю втрат даних, тобто важливим є факт отримання усіх даних, а не їх хронологічна послідовність. З таким ви стикалися в реальному житті, коли крутили стрічку Twitter або Facebook.
 
-Вашою задачею є створення модулю обробки логу для подальшої обробки (розглядається в [objects/logConverting](js-track/objects/logCoverting)). Цей модуль буде обробляти надану строку, розбирати її на складові, перевіряти на повноту кожний запис і повертати у заданому форматі. Тобто, вам необхідно написати функцію `logParsing`, яка:
+Вашою задачею є створення модулю обробки логу для подальшої обробки (розглядається в [advanced/logConverting](js-track/advanced/logCoverting)). Цей модуль буде обробляти надану строку, розбирати її на складові, перевіряти на повноту кожний запис і повертати у заданому форматі. Тобто, вам необхідно написати функцію `logParsing`, яка:
 
 - Приймає на вхід строку логів (приклад і формат див. нижче)
 - Перевіряє на закінченість (тобто приймати до уваги потрібно тільки ті записи, що є повними - містять усі приведені нижче ідентифікатори
@@ -33,11 +33,11 @@
 
 ```js
 {:mulog/event-name :async.log/logger,
- :mulog/timestamp  613022400000,
- :mulog/trace-id   #mulog/flake "4lIfs0B6IRjDMHo6g2Tb5rf4lz1kQNXl"
- :mulog/outcome    :ok
- :server-id        "S01"
- :message          "Starting server"}
+:mulog/timestamp  613022400000,
+:mulog/trace-id   #mulog/flake "4lIfs0B6IRjDMHo6g2Tb5rf4lz1kQNXl"
+:mulog/outcome    :ok
+:server-id        "S01"
+:message          "Starting server"}
 ```
 
 З вказаних полів необхідно вибрати наступні: `mulog/timestamp`, `server-id` та `message`.
@@ -71,17 +71,17 @@
 ```js
 logParsing(`
 {:mulog/event-name :async.log/logger,
- :mulog/timestamp  1664789750262,
- :mulog/trace-id   #mulog/flake "4lIfs0B6IRjDMHo6g2Tb3rf4lz1kQNXl"
- :mulog/outcome    :ok
- :server-id        "S01"
- :message          "Starting server"}
+:mulog/timestamp  1664789750262,
+:mulog/trace-id   #mulog/flake "4lIfs0B6IRjDMHo6g2Tb3rf4lz1kQNXl"
+:mulog/outcome    :ok
+:server-id        "S01"
+:message          "Starting server"}
 {:mulog/event-name :async.log/logger,
- :server-id        "S02"
- :mulog/outcome    :error
- :mulog/trace-id   #mulog/flake "aRIss10BeDmj069o01TbIr4wLwiK4zxQ"
- :mulog/timestamp  1664789800446,
- :message          "Server pending error"}
+:server-id        "S02"
+:mulog/outcome    :error
+:mulog/trace-id   #mulog/flake "aRIss10BeDmj069o01TbIr4wLwiK4zxQ"
+:mulog/timestamp  1664789800446,
+:message          "Server pending error"}
 `);
 ```
 

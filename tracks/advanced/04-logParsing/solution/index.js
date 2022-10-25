@@ -16,8 +16,8 @@ export const logParsing = (string = "") => {
     rows.forEach((row) => {
       const isRequiredRow = /timestamp|server-id|message/.test(row);
       if (isRequiredRow) {
-        const key = row.slice(2, 17).replace("mulog/", "").trim();
-        const value = row.slice(17).trim().replace(/[",}]/g, "");
+        const key = row.slice(1, 16).replace("mulog/", "").trim();
+        const value = row.slice(16).trim().replace(/[",}]/g, "");
         finalRecord[elementsPosition[key]] = value;
         if (key === "timestamp") {
           finalRecord[0] = new Date(+finalRecord[0]).toISOString().slice(0, 10);
