@@ -1,5 +1,4 @@
-export const countVowels = (string = "") => {
-  const vowels = ["a", "e", "i", "o", "u"];
+export const countVowels = (vowels = [], string = "") => {
   let counter = 0;
 
   for (let str of string.toLocaleLowerCase()) {

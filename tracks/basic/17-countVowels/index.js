@@ -1,1 +1,1 @@
-export const countVowels = (string = "") => {};
+export const countVowels = (vowels = [], string = "") => {};

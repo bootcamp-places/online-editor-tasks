@@ -3,8 +3,7 @@
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-const countVowels = (string = "") => {
-  const vowels = ["a", "e", "i", "o", "u"];
+const countVowels = (vowels = [], string = "") => {
   let counter = 0;
 
   for (let str of string.toLocaleLowerCase()) {

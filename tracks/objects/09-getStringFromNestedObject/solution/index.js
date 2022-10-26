@@ -1,9 +1,10 @@
-export const getStringFromNestedObject = (str, nestedObject) => {
+export const getStringFromNestedObject = (str = "", nestedObject = {}) => {
+  let obj = nestedObject;
   const arr = str.split(".");
 
   arr.forEach((el) => {
-    nestedObject = nestedObject[el];
+    obj = obj[el];
   });
 
-  return nestedObject;
+  return obj;
 };

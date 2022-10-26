@@ -18,5 +18,4 @@ describe("objects/getStringFromNestedObject", () => {
       })
     ).toEqual("meow");
   });
-  // [your tests here]
 });

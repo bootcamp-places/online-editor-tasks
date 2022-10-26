@@ -3,13 +3,14 @@
 Розв'язання цієї задачі може виглядати ось так:
 
 ```js
-const getStringFromNestedObject = () => {
+const getStringFromNestedObject = (str = "", nestedObject = {}) => {
+  let obj = nestedObject;
   const arr = str.split(".");
 
   arr.forEach((el) => {
-    nestedObject = nestedObject[el];
+    obj = obj[el];
   });
 
-  return nestedObject;
+  return obj;
 };
 ```

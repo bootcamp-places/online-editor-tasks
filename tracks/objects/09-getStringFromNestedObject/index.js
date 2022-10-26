@@ -5,4 +5,4 @@
  * @returns {string} - returns the new string
  */
 
-export const getStringFromNestedObject = (str, nestedObject) => {};
+export const getStringFromNestedObject = (str = "", nestedObject = {}) => {};
