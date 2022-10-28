@@ -1,3 +1,3 @@
-export const selectVersion = (targetVersion = "", versionsList = "") => {
+export const selectVersion = (targetVersion = "", versionsList = []) => {
 
 };

@@ -1,14 +1,14 @@
-export const selectVersion = (targetVersion = "", versionsList = "") => {
+export const selectVersion = (targetVersion = "", versionsList = []) => {
   const version = targetVersion.split(".");
-  const majorTarget = version[0];
-  const minorTarget = version[1];
-  const patchTarget = version[2];
-  const result = { major: "0", minor: "0", patch: "0" };
+  const majorTarget = parseInt(version[0]);
+  const minorTarget = parseInt(version[1]);
+  const patchTarget = parseInt(version[2]);
+  const result = { major: 0, minor: 0, patch: 0 };
 
   for (let i = 0; i < versionsList.length; i++) {
     const versionCandidate = versionsList[i].split(".");
-    const majorCandidate = versionCandidate[0];
-    const minorCandidate = versionCandidate[1];
+    const majorCandidate = parseInt(versionCandidate[0]);
+    const minorCandidate = parseInt(versionCandidate[1]);
     const patchCandidate = parseInt(versionCandidate[2]);
     if (majorCandidate === majorTarget) {
       result.major = majorCandidate;
@@ -23,7 +23,7 @@ export const selectVersion = (targetVersion = "", versionsList = "") => {
     ) {
       result.minor = minorCandidate;
     }
-    if (patchCandidate == patchTarget) {
+    if (patchCandidate === patchTarget) {
       result.patch = patchCandidate;
     }
     if (
