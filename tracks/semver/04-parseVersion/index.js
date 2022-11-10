@@ -1,1 +1,3 @@
-export const parseVersion = (dependencies = "") => {};
+export const parseVersion = (dependencies = "") => {
+
+};
