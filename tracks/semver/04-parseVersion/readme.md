@@ -48,10 +48,18 @@ django-filters == 2.1`);
 
 ```js
 {
-  "dependencies": [
+  "dependencies": {
     "django": "2.1.99",
     "django-filters": "3.0.0"
-  ]
+  }
+}
+```
+
+Якщо на вхід буде отримана пуста строка, то результатом буде пустий обʼєкт залежностей:
+
+```js
+{
+  "dependencies": {}
 }
 ```
 
