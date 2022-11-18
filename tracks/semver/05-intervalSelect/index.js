@@ -1,3 +1,3 @@
-export const intervalSelect = () => {
+export const intervalSelect = (dependencies = "", versions = {}) => {
 
 };
