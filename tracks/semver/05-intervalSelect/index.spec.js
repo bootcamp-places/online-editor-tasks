@@ -27,35 +27,36 @@ describe("semver/intervalSelect", () => {
     expect(intervalSelect(deps, list)).toEqual(res);
   });
 
-  // it("should work for range case", () => {
-  //   const deps = "django-filters >= 2.1";
-  //   const list = {
-  //     "django-filters": ["1.0.0", "2.1.1", "2.2.2", "3.0.0"],
-  //   };
-  //   const res = {
-  //     dependencies: {
-  //       "django-filters": "3.0.0",
-  //     },
-  //   };
-  //   expect(intervalSelect(deps, list)).toEqual(res);
-  // });
+  it("should work for range case", () => {
+    const deps = "django-filters >= 2.1";
+    const list = {
+      "django-filters": ["1.0.0", "2.1.1", "2.2.2", "3.0.0"],
+    };
+    const res = {
+      dependencies: {
+        "django-filters": "3.0.0",
+      },
+    };
+    expect(intervalSelect(deps, list)).toEqual(res);
+  });
 
-  //   it("should work for example case", () => {
-  //     const deps = `django > 2, < 3
-  // requests == 3.0.0
-  // django-filters >= 2.1`;
-  //     const list = {
-  //       django: ["1.0.0", "2.0.0", "2.1.1", "2.3.7-alpha", "2.3.7", "3.0.0"],
-  //       requests: ["2.1.1", "3.0.0", "3.0.1"],
-  //       "django-filters": ["1.0.0", "2.1.1", "2.2.2", "3.0.0"],
-  //     };
-  //     const res = {
-  //       dependencies: {
-  //         django: "2.3.7",
-  //         requests: "3.0.0",
-  //         "django-filters": "2.2.2",
-  //       },
-  //     };
-  //     expect(intervalSelect(deps, list)).toEqual(res);
-  //   });
+  it("should work for example case", () => {
+    const deps = `django > 2, < 3
+# For "requests" use exact version
+requests == 3.0.0
+django-filters >= 2.1`;
+    const list = {
+      django: ["1.0.0", "2.0.0", "2.1.1", "2.3.7-alpha", "2.3.7", "3.0.0"],
+      requests: ["2.1.1", "3.0.0", "3.0.1"],
+      "django-filters": ["1.0.0", "2.1.1", "2.2.2", "3.0.1"],
+    };
+    const res = {
+      dependencies: {
+        django: "2.3.7",
+        requests: "3.0.0",
+        "django-filters": "3.0.1",
+      },
+    };
+    expect(intervalSelect(deps, list)).toEqual(res);
+  });
 });
