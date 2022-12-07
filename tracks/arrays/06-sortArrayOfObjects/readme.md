@@ -17,7 +17,7 @@
 **Приклад:**
 
 ```js
-filterArrayOfObjects([
+sortArrayOfObjects([
   {
   title: "Notebook Acer 14",
   color: "black",
@@ -81,7 +81,7 @@ filterArrayOfObjects([
 
   ## Алгоритм дій
 
-  1. Для кожної пари продукту
+  1. Для кожної пари продуктів
   1. Порівняти поле `rating` між собою
   1. Змінити позицію пари згідно заданого значення `sortBy`
   1. Повернути отриманий масив продуктів

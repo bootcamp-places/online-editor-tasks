@@ -1,3 +1,1 @@
-export const sortArrayOfObjects = () => {
-
-};
+export const sortArrayOfObjects = (products = [], sortBy = "") => {};
