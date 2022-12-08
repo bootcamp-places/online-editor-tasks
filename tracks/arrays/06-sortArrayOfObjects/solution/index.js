@@ -1,9 +1,9 @@
-export const sortArrayOfObjects = (products = [], sortBy = "") => {
-  return products.sort((product1, product2) => {
-    if (sortBy === "asc") {
-      return product1.rating - product2.rating;
-    } else {
-      return product2.rating - product1.rating;
-    }
-  });
-};
+export const sortArrayOfObjects = (
+  products = [],
+  sortBy = "",
+  map = { asc: [0, 1], desc: [1, 0] }
+) =>
+  products.sort(
+    (...product) =>
+      product[map[sortBy][0]].rating - product[map[sortBy][1]].rating
+  );
