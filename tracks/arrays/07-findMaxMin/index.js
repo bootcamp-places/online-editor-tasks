@@ -1,3 +1,2 @@
-export const findMaxMin = () => {
-
+export const findMaxMin = (prices = [], sortBy = "") => {
 };
