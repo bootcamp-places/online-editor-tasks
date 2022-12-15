@@ -4,7 +4,7 @@ export const arrayIndex = (rating = []) => {
   var ratingLength = rating.length;
 
   if (ratingLength) {
-    for (var index = 1; index < rating; index += 1) {
+    for (var index = 1; index < ratingLength; index += 1) {
       resultRating += rating[index];
     }
   }
