@@ -23,4 +23,9 @@ sortArray([0, 33, 11, 90, 70, 100, 70, 0]);
 
   Зверніть увагу на вбудовані методи масиву [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) та [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice).
 
+  ## Алгоритм дій
+
+  1. Для масиву `ratings` виконати сортування порівнянням аргументів
+  1. Повернути перші три елементи або менше, якщо довжина масиву менша
+
 </details>
