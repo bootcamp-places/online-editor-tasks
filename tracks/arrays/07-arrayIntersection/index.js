@@ -1,3 +1,1 @@
-export const arrayIntersection = () => {
-
-};
+export const arrayIntersection = (products = [], favorites = []) => {};
