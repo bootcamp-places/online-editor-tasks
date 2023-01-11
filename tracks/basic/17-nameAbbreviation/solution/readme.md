@@ -44,3 +44,24 @@ const lastLetter = lastName.charAt(0) || ".";
 const nameAbbreviation = (firstName = "", lastName = "") =>
   (firstName.at(0) + (lastName.at(0) || ".")).toUpperCase();
 ```
+
+У випадку, коли вам буде потрібно оброблювати гліфи та графеми, зверніть увагу на вбудований обʼєкт [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). Цей конструктор інтернаціоналізації містить методи, що є чутливі до мови інших конструкторів і використовують загальний шаблон для ідентифікації локалей і визначення того, який вони фактично використовуватимуть, також підтримують алгоритми, чутливі до граматики мови.
+
+Приклад:
+
+```js
+const str = "吾輩は猫である。";
+const segmenterJa = new Intl.Segmenter('ja-JP', { granularity: 'word' });
+
+const segments = segmenterJa.segment(str);
+console.table(Array.from(segments));
+
+/*
+0: '吾輩'
+1: 'は'
+2: '猫'
+3: 'で'
+4: 'ある'
+5: '。'
+*/
+```
