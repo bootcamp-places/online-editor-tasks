@@ -1,5 +1,5 @@
 export const seoTest = (text = "", word = "") => {
-  if (word.trim() === "") {
+  if (text.trim() === "" || word.trim() === "") {
     return 0;
   }
 
