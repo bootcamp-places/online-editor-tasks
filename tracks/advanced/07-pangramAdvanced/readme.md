@@ -44,9 +44,6 @@ pangramAdvanced("Хвацький юшковар Філіп щодня на ґа
 
 ---
 
-  ## Алгоритм дій
-
-  1. пункт 1
-  1. пункт 2
+  В [UTF-8](https://en.wikipedia.org/wiki/UTF-8) літери української абетки розташовані не у тій самій послідовності, тому щоб зберігти послідовність як у завданні, скористайтеся масивом і методом [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
 
 </details>
