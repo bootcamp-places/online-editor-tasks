@@ -20,12 +20,14 @@ arrayContains(["me@acme.com", "you@acme.com", "hacker@evil.co"], "acme.com");
   <summary>Підказка</summary>
 
 ---
+  Ітерувати масив можна декількома способами (наприклад, за допомогою циклу `for...of`, або використовуючи вбудований метод `forEach`).
+
+  Зверніть увагу на вбудований метод масиву [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), а також на вбудований метод рядку [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 
   ## Алгоритм дій
 
-  1. Для кожного елементу масиву `emails`
-  1. Виділити його імʼя домену
-  1. Якщо імʼя збігається з наданим `domain`
+  1. Для кожного елементу масиву `emails`, перевірити
+  1. Якщо елемент містить підрядок `domain`, то
   1. Додати цей елемент до результату
   1. Повернути результат
 

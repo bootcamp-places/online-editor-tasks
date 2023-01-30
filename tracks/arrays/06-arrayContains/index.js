@@ -1,3 +1,1 @@
-export const arrayContains = () => {
-
-};
+export const arrayContains = (emails = [], domain = "") => {};
