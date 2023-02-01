@@ -53,7 +53,8 @@ body {
 }
 /* END */
 `,
-    result: 'body{background:url("barn.jpg") no-repeat right top}.text1{font-size:16px}@media (min-width:1200px){.text1{font-size:20px}}',
+    result:
+      'body{background:url("barn.jpg") no-repeat right top}.text1{font-size:16px}@media (min-width:1200px){.text1{font-size:20px}}',
   },
 ];
 
