@@ -64,7 +64,7 @@ describe("regexp/minifyCss", () => {
 
   testCases.forEach((testCase) => {
     it(`should work for ${testCase.title} case`, () => {
-      const userResult = logParsing(testCase.string);
+      const userResult = minifyCss(testCase.string);
       const expectedResult = testCase.result;
       expect(userResult).toEqual(expectedResult);
     });
