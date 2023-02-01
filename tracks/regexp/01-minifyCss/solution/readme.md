@@ -26,8 +26,3 @@ const minifyCss = (string = "") => {
   1. Прибрати пусті місця з початку рядка і кінця
 
 [опис алгоритму вирішення задачі]
-
-## Корисні посилання
-
-1. [Lea Verou — /Reg(exp){2}lained/: Demystifying Regular Expressions](https://www.youtube.com/watch?v=M7vDtxaD7ZU)
-1. [Regular Expressions Demystified](https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE&index=1)

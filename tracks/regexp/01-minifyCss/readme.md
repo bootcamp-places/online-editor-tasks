@@ -28,6 +28,11 @@ minifyCss(`/* --- */
 .ui{display:none}.ui-border{border:0;clip:rect(0 0 0 0);position:absolute}
 ```
 
+## Корисні посилання
+
+1. [Lea Verou — /Reg(exp){2}lained/: Demystifying Regular Expressions](https://www.youtube.com/watch?v=M7vDtxaD7ZU)
+1. [Academind: Regular Expressions Demystified](https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE&index=1)
+
 <details>
   <summary>Підказка</summary>
 
