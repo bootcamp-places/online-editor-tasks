@@ -1,3 +1,1 @@
-export const validateEmail = () => {
-
-};
+export const validateEmail = (email = "") => {};
