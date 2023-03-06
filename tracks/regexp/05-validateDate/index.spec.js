@@ -1,7 +1,7 @@
-import { validateDate } from './solution/index.js';
+import { validateDate } from "./solution/index.js";
 
-describe('regexp/validateDate', () => {
-  it('should be defined', () => {
+describe("regexp/validateDate", () => {
+  it("should be defined", () => {
     expect(validateDate).toBeDefined();
   });
 
