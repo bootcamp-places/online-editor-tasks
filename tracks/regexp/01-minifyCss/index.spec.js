@@ -1,3 +1,4 @@
+// editorconfig-checker-disable
 import { minifyCss } from "./solution/index.js";
 
 const testCases = [
