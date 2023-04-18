@@ -1,3 +1,3 @@
-export const logScan = () => {
+export const logScan = (logs = "", userName = "") => {
 
 };
