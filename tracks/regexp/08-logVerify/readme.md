@@ -10,6 +10,8 @@ user_name: <dd.mm.yy> <ip> 'userName'
 
 Якщо ж користувача не знайдено, то необхідно повернути пустий масив.
 
+В наведених тест-кейсах IP адреса є завжди валідною, тому вам не потрібно перевіряти її на валідність. Також IPv6 адреса завжди надана у повній формі, тобто не містить скорочень (наприклад, `fe80::200:f8ff:fe21:67cf`).
+
 **Приклад:**
 
 ```js
@@ -35,4 +37,10 @@ logVerify(logs, 'guest'); // ["192.168.0.1", "fe80:0:0:0:200:f8ff:fe21:67cf"]
 ---
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
+
+  Для роботи з регулярними виразами використовуйте методи `String.prototype.match` або `RegExp.prototype.exec`.
+
+  - [MDN: RegExp.prototype.exec](https://developer.mozilla.org/uk/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
+  - [MDN: String.prototype.match](https://developer.mozilla.org/uk/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+
 </details>
