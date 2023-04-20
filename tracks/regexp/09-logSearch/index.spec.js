@@ -14,7 +14,7 @@ info: user 'guest' logged in`,
     result: "",
   },
   {
-    title: "typical",
+    title: "IPv4",
     logs: `
 record 1: 17.04.23
 user_name: 17.04.23 10.0.0.1 'guest'
@@ -25,12 +25,12 @@ info: user 'guest' logged in
 warning: user 'guest' tried to change password
 record 3: 19.04.23
 user_name: 19.04.23 'fe80:0:0:0:200:f8ff:fe21:67cf' 'guest'
-info: user 'gest' logged in
+info: user 'guest' logged in
 `,
     result: "127.0.0.1",
   },
   {
-    title: "typical",
+    title: "IPv6",
     logs: `
 record 1: 17.04.23
 user_name: 17.04.23 192.168.0.1 'guest'
@@ -54,7 +54,7 @@ describe('regexp/logSearch', () => {
 
   testCases.forEach((testCase) => {
     it(`should work for ${testCase.title} case`, () => {
-      const userResult = logSearch(testCase.logs, "guest");
+      const userResult = logSearch(testCase.logs);
       const expectedResult = testCase.result;
       expect(userResult).toEqual(expectedResult);
     });

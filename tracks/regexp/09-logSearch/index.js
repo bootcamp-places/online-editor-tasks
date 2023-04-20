@@ -1,3 +1,3 @@
-export const logSearch = (logs = "", userName = "") => {
+export const logSearch = (logs = "") => {
 
 };
