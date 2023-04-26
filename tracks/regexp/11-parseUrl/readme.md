@@ -12,8 +12,8 @@ parseUrl('https://shop.ua/community');
 //   protocol: 'https',
 //   domain: 'shop.ua',
 //   path: '/community',
-//   query: '',
-//   hash: '',
+//   query: undefined,
+//   hash: undefined,
 // }
 
 parseUrl('http://www.house.gov:8080/petition/provide/?good=job&some=pharm&page=5#Start_Tag');
