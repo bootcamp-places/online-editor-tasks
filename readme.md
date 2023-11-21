@@ -139,42 +139,42 @@ npm run test:karma -- --grep <track-name>
         <a href="https://github.com/dosandk">
             <img src="https://avatars.githubusercontent.com/u/7078894?v=4" width="100;" alt="dosandk"/>
             <br />
-            <sub><b>Volodymyr Shevchuk</b></sub>
+            <sub><b>dosandk</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/merezhanyi-eleks">
             <img src="https://avatars.githubusercontent.com/u/103418570?v=4" width="100;" alt="merezhanyi-eleks"/>
             <br />
-            <sub><b>Merezhanyi</b></sub>
+            <sub><b>merezhanyi-eleks</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/YevheniiKolomiiets">
             <img src="https://avatars.githubusercontent.com/u/37960571?v=4" width="100;" alt="YevheniiKolomiiets"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>YevheniiKolomiiets</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/SerhiyKoziuk">
             <img src="https://avatars.githubusercontent.com/u/113430116?v=4" width="100;" alt="SerhiyKoziuk"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>SerhiyKoziuk</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/olenaabakumenkoe">
             <img src="https://avatars.githubusercontent.com/u/131757328?v=4" width="100;" alt="olenaabakumenkoe"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>olenaabakumenkoe</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/ivan-kodola-eleks">
             <img src="https://avatars.githubusercontent.com/u/107475056?v=4" width="100;" alt="ivan-kodola-eleks"/>
             <br />
-            <sub><b>Ivan Kodola</b></sub>
+            <sub><b>ivan-kodola-eleks</b></sub>
         </a>
     </td></tr>
 </table>
