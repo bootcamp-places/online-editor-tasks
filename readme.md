@@ -132,6 +132,6 @@ npm run test:karma -- --grep <track-name>
 
 ## Contributors
 
-<!-- readme: contributors -start -->
+<!-- readme: collaborators,contributors -start -->
 
-<!-- readme: contributors -end -->
+<!-- readme: collaborators,contributors -end -->
