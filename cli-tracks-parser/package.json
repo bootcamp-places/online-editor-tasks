@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "parse-tracks": "bin/index.js"
+    "parse-tracks": "./bin/index.js"
   },
   "scripts": {
     "develop": "nodemon index.js",
