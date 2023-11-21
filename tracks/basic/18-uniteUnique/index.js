@@ -1,3 +1,1 @@
-export const uniteUnique = () => {
-
-};
+export const uniteUnique = () => { };

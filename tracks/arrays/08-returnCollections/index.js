@@ -1,3 +1,1 @@
-export const returnCollections = () => {
-
-};
+export const returnCollections = () => { };

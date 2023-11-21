@@ -1,7 +1,10 @@
+name: ContributeList
+
 on:
+  pull_request:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   contrib-readme-job:
