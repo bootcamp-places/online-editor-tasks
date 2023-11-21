@@ -16,5 +16,6 @@ jobs:
         with:
           readme_path: "readme.md"
           use_username: true
+          collaborators: "all"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
