@@ -2,7 +2,7 @@
 
 ## Install
 
-Для запуску необхідно встановити залежності, виконавши 
+Для запуску необхідно встановити залежності, виконавши
 команду `npm install` в корні проєкту.
 
 Вимоги до версій "Nodejs" та "npm":
@@ -31,7 +31,7 @@ npm run create-task
 [![asciicast](https://asciinema.org/a/qyGZKKVPQn6u5NUwtVOgMKgxT.svg)](https://asciinema.org/a/qyGZKKVPQn6u5NUwtVOgMKgxT)
 
 Після цього у відповідній директорії (нового або наявного треку) буде створена
-базова структура задачі. Цю структуру необхідно наповнити описом завдання, тестами 
+базова структура задачі. Цю структуру необхідно наповнити описом завдання, тестами
 та оптимальним рішенням.
 
 ## Структура задачі
@@ -40,34 +40,34 @@ npm run create-task
 
 Приклад структури задачі:
 
-  ```
-  .
-  └── 📁 00-taskName
-    ├── 📄 readme.md
-    ├── 📄 index.js
-    ├── 📄 index.spec.html
-    ├── 📄 index.spec.js
-    └── 📁 solution
-        ├── 📄 index.js
-        └── 📄 readme.md
-  ```
-  
-  * **_readme.md_** - опис завдання
-  * **_index.js_** - структура завдання без рішення
-  * **_index.spec.html_** - файл для запуску тестів
-  * **_index.spec.js_** - тести до завдання
-  * **_solution/index.js_** - файл з розв'язанням завдання
-  * **_solution/readme.md_** - опис алгоритму розв'язання завдання
+```
+.
+└── 📁 00-taskName
+  ├── 📄 readme.md
+  ├── 📄 index.js
+  ├── 📄 index.spec.html
+  ├── 📄 index.spec.js
+  └── 📁 solution
+      ├── 📄 index.js
+      └── 📄 readme.md
+```
+
+- **_readme.md_** - опис завдання
+- **_index.js_** - структура завдання без рішення
+- **_index.spec.html_** - файл для запуску тестів
+- **_index.spec.js_** - тести до завдання
+- **_solution/index.js_** - файл з розв'язанням завдання
+- **_solution/readme.md_** - опис алгоритму розв'язання завдання
 
 ## Структура треку завдань
 
 Трек (track) - це підбірка завдань/задач об'єднаних спільною ідеєю.
 
-Можна об'єднувати задачі в трек за критерієм складності, наприклад: 
+Можна об'єднувати задачі в трек за критерієм складності, наприклад:
 "level-1", "level-2", "level-3", ...
 
 Так само можна піти шляхом об'єднання завдань відповідно до тем:
-"array-methods", "data-conversion", "algorithms", ...  
+"array-methods", "data-conversion", "algorithms", ...
 
 Або навіть об'єднати ці два підходи: "array-methods-level-1"
 
@@ -79,30 +79,30 @@ npm run create-task
 
 **Приклад структури треку:**
 
-  ```
-  .
-  └── 📁 trackName
-    ├── 📄 readme.md
-    ├── 📁 01-taskName
-    ├── 📁 02-someTask
-    ├── 📁 ... 
-    ├── 📁 99-anotherTask
-  ```
+```
+.
+└── 📁 trackName
+  ├── 📄 readme.md
+  ├── 📁 01-taskName
+  ├── 📁 02-someTask
+  ├── 📁 ...
+  ├── 📁 99-anotherTask
+```
 
-  * **_readme.md_** - опис треку
-  * **_00-taskName_** - назва завдання
-  
+- **_readme.md_** - опис треку
+- **_00-taskName_** - назва завдання
+
 Самі завдання будуть видаватись користувачу для вирішення відповідно до номера в
 назві завдання.
 
 ## Запуск тестів
 
-Для тестування завдань використовується ["jasmine"](https://github.com/jasmine/jasmine).  
+Для тестування завдань використовується ["jasmine"](https://github.com/jasmine/jasmine).
 
 Тести до завдань можна запустити двома способами:
 
-* відкривши в браузері файл **_"index.spec.html"_** відповідного завдання 
-* запустивши одну з команд тест-ранера ["karma"](https://karma-runner.github.io/latest/index.html)
+- відкривши в браузері файл **_"index.spec.html"_** відповідного завдання
+- запустивши одну з команд тест-ранера ["karma"](https://karma-runner.github.io/latest/index.html)
 
 ### Запуск тестів за допомогою Karma
 
@@ -129,3 +129,8 @@ npm run test:karma -- --grep <track-name>
 
 Наприклад запустимо тести для всіх задач треку "basic":
 `npm run test:karma -- --grep basic`
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
