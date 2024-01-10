@@ -31,7 +31,7 @@ mixArrays(
 <details>
   <summary>Підказка</summary>
 
----
+___
 
 Зверніть увагу на:
 [Spread in array literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_array_literals)

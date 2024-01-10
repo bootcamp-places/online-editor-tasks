@@ -12,6 +12,6 @@ sumTwoSmallestNumbers([5,8,23,29,22]);
 <details>
   <summary>Підказка</summary>
 
----
+___
 Зверніть увагу на методи [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 </details>

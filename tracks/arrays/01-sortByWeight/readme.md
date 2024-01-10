@@ -28,7 +28,8 @@ sortByWeight([
 <details>
   <summary>Підказка</summary>
   
----
+___
+
 Зверніть увагу на вбудований метод масиву [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort?retiredLocale=uk).  
 
 В залежності від того що поверне функція, назвемо її `compare`:

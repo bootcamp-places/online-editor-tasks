@@ -14,7 +14,7 @@ validateEmail("Abc.example.com"); // => false
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для найпростішого випадку потрібно перевіряти, що поштова адреса містить:
   

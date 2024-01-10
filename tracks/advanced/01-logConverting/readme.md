@@ -65,7 +65,7 @@ logConverting(`2020-02-01;S01;Out of memory
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Найпростішим способом вирішення цієї задачі є використання вбудованого обʼєкту [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON), а саме метода [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 

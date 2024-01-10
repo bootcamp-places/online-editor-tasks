@@ -13,7 +13,7 @@ stringToArray('Hello, World!'); // ['Hello,', 'World!']
 <details>
   <summary>Підказка</summary>
 
-  ---
+  ___
 
   Зверніть увагу на метод стрічки [`split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 </details>

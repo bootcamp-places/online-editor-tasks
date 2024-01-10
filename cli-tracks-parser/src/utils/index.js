@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
+import parseMD from 'parse-md'
 
 import { TrackModel } from '../models/track.model.js';
 import { TaskModel } from '../models/task.model.js';
@@ -48,10 +49,16 @@ export const readFilesFromDir = async dirPath => {
         const key = TASK_FIELDS_BY_FILES_NAMES[dirName ? `${dirName}/${item}` : item];
 
         if (key) {
-          filesContent[key] = await fs.readFile(itemPath, 'utf-8');
+
+        filesContent[key] = await fs.readFile(itemPath, 'utf-8');
+        const { metadata } = parseMD(filesContent[key])
+
+        if (metadata.shortDescription){
+          filesContent.shortDescription = metadata.shortDescription
         }
       }
     }
+  }
   };
 
   await doStep(list);

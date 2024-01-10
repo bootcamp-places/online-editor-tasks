@@ -66,5 +66,5 @@ const run = () => {
   }
 };
 
-// run();
-export default run;
+run();
+//export default run;
