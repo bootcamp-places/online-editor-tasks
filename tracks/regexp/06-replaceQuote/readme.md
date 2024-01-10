@@ -15,7 +15,7 @@ replaceQuote("I'm the cook, it's my job."); // I'm the cook, it's my job.
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

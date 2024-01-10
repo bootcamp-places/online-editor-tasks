@@ -95,7 +95,7 @@ logParsing(`
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Простіше обробляти таку довгу строку, перетворивши на масив, як це робилось раніше в завданні [stringToArray](tracks/basic/06-stringToArray).
 

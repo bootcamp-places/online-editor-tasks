@@ -24,8 +24,7 @@ seoTest("JavaScript, often abbreviated as JS, is a programming language that is 
 <details>
   <summary>Підказка</summary>
 
----
-
+___
   ## Алгоритм дій:
 
   1. Якщо слово пусте або немає тексту - повернути 0

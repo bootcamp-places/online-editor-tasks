@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "mongoose": "^6.5.2"
+    "mongoose": "^6.5.2",
+    "parse-md": "^3.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"

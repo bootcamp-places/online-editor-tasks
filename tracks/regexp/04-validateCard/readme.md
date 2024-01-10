@@ -20,7 +20,7 @@ validateCard("1234567890"); // => false
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

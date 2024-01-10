@@ -35,7 +35,7 @@ revertArray(["lorem ipsum", "dolor sit amt", "set sit", "last one"], 3);
 <details>
   <summary>Підказка</summary>
 
----
+___
   Перевернути масив можна кількома способами (наприклад, за допомогою циклів, або використовуючи вбудовані методи).
 
   Зверніть увагу на вбудований метод масиву [reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse).

@@ -12,7 +12,7 @@ sliceString('some long string', 4); // 'some'
 <details>
   <summary>Підказка</summary>
   
-  ---
+  ___
 
   Зверніть увагу на метод [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
   

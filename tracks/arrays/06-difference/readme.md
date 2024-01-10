@@ -26,7 +26,7 @@ difference([1, 200, 'some string'], ''); // [1, 200, 'some string'];
 <details>
   <summary>Підказка</summary>
 
----
+___
 
 Зверніть увагу на методи:
 - [Array.isArray()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)

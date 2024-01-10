@@ -20,7 +20,7 @@ revertCase('Hello World'); // hELLO wORLD
 <details>
   <summary>Підказка</summary>
 
-  ---
+  ___
   
   Стрічку, яку приймає функція, необхідно проітерувати, або іншими словами - перебрати,
   літеру за літерою, за допомогою циклу [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of#iterating_over_a_string),

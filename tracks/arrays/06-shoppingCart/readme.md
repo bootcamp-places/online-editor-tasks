@@ -28,7 +28,7 @@ shoppingCart(["1", null, "3", "", 99, null, , "0"]);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

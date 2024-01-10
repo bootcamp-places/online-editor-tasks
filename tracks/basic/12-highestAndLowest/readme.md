@@ -19,7 +19,7 @@ highestAndLowest(data); // '-4 6'
 <details>
   <summary>Підказка</summary>
   
----
+___
 
 Зверніть увагу на методи:
 * [`Math.min()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min)

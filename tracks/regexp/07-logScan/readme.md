@@ -34,7 +34,7 @@ logScan(logs, 'guest'); // 2
 <details>
   <summary>Підказка</summary>
 
----
+___
 
     Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

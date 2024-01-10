@@ -1,3 +1,7 @@
+---
+shortDescription: test test 2
+---
+
 # intervalSelect
 
 **Увага:** Це завдання базується на попередніх завданнях серії, тому почніть з них.
@@ -74,7 +78,7 @@ intervalSelect(deps, list);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для вирішення задачі пошуку можна використати функцію `selectVersion` з [другого завдання серії](tracks/semver/selectVersion).
 

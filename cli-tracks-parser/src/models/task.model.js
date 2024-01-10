@@ -10,6 +10,7 @@ const TaskSchema = new mongoose.Schema({
   taskId: { type: String, required: true, index: true },
   taskName: { type: String, required: true },
   trackId: { type: String, required: true },
+  shortDescription: {type: String, required: false},
   __v: { type: Number, select: false },
 });
 
