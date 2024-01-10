@@ -1,7 +1,3 @@
----
-shortDescription: test test 12312
----
-
 # logConverting
 
 > Author: [merezhanyi-eleks](https://github.com/merezhanyi-eleks)
