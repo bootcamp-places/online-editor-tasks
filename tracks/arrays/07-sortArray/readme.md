@@ -19,7 +19,7 @@ sortArray([0, 33, 11, 90, 70, 100, 70, 0]);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Зверніть увагу на вбудовані методи масиву [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) та [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice).
 

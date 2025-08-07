@@ -26,7 +26,7 @@ validatePassword("99.00.1999"); // => false
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

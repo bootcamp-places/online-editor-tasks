@@ -35,7 +35,7 @@ makeSlug("Частина 1: Історія створення HTTP, ґвалт �
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Замінити символи можна за допомогою методу [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) або [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll), як було показано в завданні [removeStringSpace](tracks/basic/14-removeStringSpace/)
 

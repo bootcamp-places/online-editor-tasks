@@ -25,7 +25,7 @@ countCharactersInString(string); // { h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1 }
   * MDN: [in operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 
 
-  ---
+  ___
   Зверніть увагу на методи:
   * MDN: [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
   * MDN: [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)

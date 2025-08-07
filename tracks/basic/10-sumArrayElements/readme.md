@@ -18,7 +18,7 @@ sumArrayElements([10, 15, 20, 15, 6, 4]); // 70
 <details>
   <summary>Підказка</summary>
   
----
+___
 
   Для отримання суми елементів масиву, зручно використовувати метод 
   масиву [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) 

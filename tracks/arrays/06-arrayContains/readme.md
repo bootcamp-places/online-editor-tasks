@@ -19,7 +19,7 @@ arrayContains(["me@acme.com", "you@acme.com", "hacker@evil.co"], "acme.com");
 <details>
   <summary>Підказка</summary>
 
----
+___
   Ітерувати масив можна декількома способами (наприклад, за допомогою циклу `for...of`, або використовуючи вбудований метод `forEach`).
 
   Зверніть увагу на вбудований метод масиву [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), а також на вбудований метод рядку [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)

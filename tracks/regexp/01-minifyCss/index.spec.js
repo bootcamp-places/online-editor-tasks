@@ -19,7 +19,7 @@ const testCases = [
   {
     title: "typical",
     string: `/* Layout helpers
-----------------------------------*/
+    ----------------------------------*/
 .ui-helper-hidden {
 	display: none;
 }

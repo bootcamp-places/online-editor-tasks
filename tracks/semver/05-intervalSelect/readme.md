@@ -74,7 +74,7 @@ intervalSelect(deps, list);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для вирішення задачі пошуку можна використати функцію `selectVersion` з [другого завдання серії](tracks/semver/selectVersion).
 

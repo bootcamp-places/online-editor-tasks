@@ -18,7 +18,7 @@ convertSnake(`component-file-name`); // component_file_name
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

@@ -28,7 +28,7 @@ arrayIntersection(["Notebook Acer 14", "Notebook HP Pro"], ["Notebook Acer 14", 
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

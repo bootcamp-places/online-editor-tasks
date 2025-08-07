@@ -44,7 +44,7 @@ selectVersion("1", ["1.0.0", "1.0.0-alpha", "1.0.0+123"]);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Відокремити постфікс від номеру патчу можна за допомогою методу [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) або ж методу [parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
 

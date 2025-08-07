@@ -39,7 +39,7 @@ ${taskName};
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   [текст підказки]
 </details>

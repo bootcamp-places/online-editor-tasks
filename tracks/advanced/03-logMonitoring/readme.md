@@ -56,7 +56,7 @@ Tue Feb 21 2022 01:12:40 GMT-0400 (Eastern Daylight Time);WARN;Server pending er
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Простіше обробляти таку довгу строку як масив, як це робилось раніше в завданні [stringToArray](tracks/basic/06-stringToArray).
 

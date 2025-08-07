@@ -15,7 +15,7 @@ removeStringSpace('   h el   lo '); // 'hello'
 <details>
   <summary>Підказка</summary>
   
-  ---
+  ___
 
   Зверніть увагу на метод [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
   

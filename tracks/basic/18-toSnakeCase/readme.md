@@ -12,7 +12,7 @@ toCamelCase('helloWorld'); // hello_world
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Алгоритм дій для реалізації функції:
 

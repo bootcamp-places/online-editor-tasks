@@ -18,7 +18,7 @@ nameAbbreviation("anonymous", "");
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

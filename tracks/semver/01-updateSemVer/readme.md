@@ -26,7 +26,7 @@ updateSemVer("1.0.1", "major");
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

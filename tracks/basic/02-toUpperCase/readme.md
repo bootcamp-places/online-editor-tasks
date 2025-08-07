@@ -12,7 +12,7 @@ toUpperCase('hello'); // 'HELLO'
 <details>
   <summary>Підказка</summary>
   
-  ---
+  ___
 
   Зверни увагу на метод `toUpperCase` 
   * MDN: [String.prototype.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)

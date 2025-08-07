@@ -34,7 +34,8 @@ textCutter("Lorem ipsum. Dolor sit, amt.", 21);
 <details>
   <summary>Підказка</summary>
 
----
+___
+
   Зверніть увагу на метод [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice), а також на метод стрічки [`split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) і метод масиву [`join`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
   Ви можете розглядати вихідний текст як строку і обробляти її за допомогою циклу [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of#iterating_over_a_string), як було показано в завданні [revertCase](js-track/basic/revertCase), або як масив слів, як було показано у [stringToArray](js-track/basic/stringToArray).

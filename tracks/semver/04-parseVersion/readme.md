@@ -67,7 +67,7 @@ django-filters == 2.1`);
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

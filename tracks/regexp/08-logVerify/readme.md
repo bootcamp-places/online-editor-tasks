@@ -34,7 +34,7 @@ logVerify(logs, 'guest'); // ["192.168.0.1", "fe80:0:0:0:200:f8ff:fe21:67cf"]
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 

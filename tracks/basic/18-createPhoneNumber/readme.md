@@ -20,7 +20,7 @@ export const createPhoneNumber = (numbers = []) => {
 <details>
   <summary>Підказка</summary>
 
----
+___
 
 Для створення номера телефону з заданим форматом (xxx) xxx-xxxx, вам потрібно замінити символи 'x' у форматі на відповідні цифри з масиву numbers. Заміна відбувається на кожній ітерації циклу forEach.
 </details>

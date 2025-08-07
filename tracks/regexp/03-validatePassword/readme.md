@@ -22,7 +22,7 @@ validatePassword("P@ssw0rD"); // => true
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Найпростішим варіантом перевірки є використання [Positive lookahead](https://www.regular-expressions.info/lookaround.html).
 

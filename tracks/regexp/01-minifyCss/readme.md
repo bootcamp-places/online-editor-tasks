@@ -36,7 +36,7 @@ minifyCss(`/* --- */
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   1. Зверніть увагу на метод [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll)
   1. Вам може знадобитись ["Regular expression syntax cheatsheet"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)

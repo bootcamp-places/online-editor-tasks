@@ -53,7 +53,7 @@ filterArrayOfObjects([
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Зверніть увагу на методи [Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) і [Array.prototype.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 

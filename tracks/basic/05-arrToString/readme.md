@@ -60,7 +60,7 @@ arr[length - 1]; // 'c'
 <details>
   <summary>Підказка</summary>
 
-  ---
+  ___
 
   Зверніть увагу на метод масиву [`join`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 </details>

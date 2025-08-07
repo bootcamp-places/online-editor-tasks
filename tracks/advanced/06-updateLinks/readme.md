@@ -43,7 +43,7 @@ updateLinks('Як було було описано у <a href="example.com" targ
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Найпростішим способом вирішення задачі буде використання методу [replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll), як було показано в завданні [removeStringSpace](tracks/basic/14-removeStringSpace/), та регулярних виразів (["Regular expression syntax cheatsheet"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet))
 

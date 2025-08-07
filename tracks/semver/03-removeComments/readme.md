@@ -46,7 +46,7 @@ django-filters ~= 2.2
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   ## Алгоритм дій
 

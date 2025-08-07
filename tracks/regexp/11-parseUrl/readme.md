@@ -29,7 +29,7 @@ parseUrl('http://www.house.gov:8080/petition/provide/?good=job&some=pharm&page=5
 <details>
   <summary>Підказка</summary>
 
----
+___
 
   Для тестування свого виразу зручно користуватись [regex101](https://regex101.com/).
 
