@@ -1,5 +1,5 @@
-module.exports = function(config) {
-  const { grep = ''} = config;
+module.exports = function (config) {
+  const { grep = '' } = config;
 
   config.set({
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -34,7 +34,8 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['mocha'], // progress
+    // reporters: ['mocha'], // progress
+    reporters: ['progress'], // progress
 
     jsonReporter: {
       stdout: true
