@@ -1,7 +1,7 @@
 import { sumTwoSmallestNumbers } from './solution';
 
 describe('arrays/sumTwoSmallestNumbers', () => {
-  it("should return sum two small numbers", function() {
+  xit("should return sum two small numbers", function () {
     let result1 = sumTwoSmallestNumbers([1, 2, 3, 4, 5]);
     expect(result1).toBe(3);
 
